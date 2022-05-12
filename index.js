@@ -12,6 +12,5 @@ function nameList() {
     node.appendChild(document.createTextNode(name.value))
     document.querySelector('ol').appendChild(node);
     name.value = '';
-
 }
 
